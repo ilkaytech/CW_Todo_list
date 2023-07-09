@@ -9,7 +9,7 @@ Project aims to create a simple To-Do App.
 ```
 To-do List App (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md         # Definition of the project
 |----solution
         |----index.html
         |----style.css
@@ -19,7 +19,6 @@ To-do List App (folder)
 ## Outcome
 
 🔗 [To-do List App](https://cw-todolist.netlify.app)
-
 <br>
 
 ![Project Snapshot](./todolist.gif)
