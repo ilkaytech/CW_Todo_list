@@ -13,7 +13,7 @@ To-do List App (folder)
 |----solution
         |----index.html
         |----style.css
-        |----App.js
+        |----script.js
 ```
 
 ## Outcome
