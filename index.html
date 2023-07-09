@@ -2,42 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Todo List</title>
+    <!-- Font Awesome cdn css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Distressed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
   </head>
-  <body class="bg-black">
-    <h1 class="text-5xl my-10 text-center text-white">Todo List</h1>
-    <div class="container mx-auto w-1/2">
-      <form>
-        <div class="border flex">
-          <input
-            type="text"
-            placeholder="Bir şeyler yazınız..."
-            class="w-full p-3 relative z-90"
-            id="todo-input"
-          />
-          <button
-            type="submit"
-            class="border-l px-6 bg-green-500 text-white"
-            id="add-todo"
-          >
-            Ekle
-          </button>
-        </div>
-      </form>
-      <div class="flex justify-end my-5">
-        <button class="p-3 bg-red-500 text-white" id="clear">Temizle</button>
+  <body>
+    <header>
+      <h1>My To Do List</h1>
+    </header>
+    <form action="">
+      <input type="text" class="todo-input" />
+      <button class="todo-button" type="subnit">
+        <i class="fas fa-plus-circle fa-lg"></i>
+      </button>
+      <div class="select">
+        <select name="todo" class="filter-todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="incomplete">Incomplete</option>
+        </select>
       </div>
-      <ul class="border p-6 flex flex-col gap-y-4 bg-white" id="todos">
-        <!--  <li
-          class="flex justify-between border px-4 py-3 flex items-center justify-between"
-        >
-          <span>Todo Name</span>
-          <button class="text-red-400">Sil</button>
-        </li> -->
-      </ul>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
     </div>
     <script src="./script.js"></script>
   </body>
