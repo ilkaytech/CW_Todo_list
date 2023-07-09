@@ -28,6 +28,8 @@ To-do List App (folder)
 
 - HTML
 
+- CSS
+
 - JS
 
 ## Resources
