@@ -33,4 +33,4 @@ To-do List App (folder)
 
 ## Resources
 
-- [Images](./img/)
+- [Images](./image.png)
