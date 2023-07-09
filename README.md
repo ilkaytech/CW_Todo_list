@@ -18,7 +18,7 @@ To-do List App (folder)
 
 ## Outcome
 
-🔗 [Js Slider](https://cw-todolist.netlify.app)
+🔗 [To-do List App](https://cw-todolist.netlify.app)
 
 <br>
 
